@@ -26,7 +26,7 @@ A modern WPF application for Windows that monitors application startup events an
 ## Installation & Setup
 
 ### Option 1: Download Release
-1. Download the latest release from the [Releases](https://github.com/yourusername/windows-automation-utility/releases) page
+1. Download the latest release from the [Releases](https://github.com/DU3RI/windows-automation-utility/releases) page
 2. Extract and run `windows-automation-utility.exe`
 
 ### Option 2: Build from Source
