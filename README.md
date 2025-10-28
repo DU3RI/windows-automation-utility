@@ -32,7 +32,7 @@ A modern WPF application for Windows that monitors application startup events an
 ### Option 2: Build from Source
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/windows-automation-utility.git
+git clone https://github.com/DU3RI/windows-automation-utility.git
 cd windows-automation-utility
 
 # Restore dependencies
