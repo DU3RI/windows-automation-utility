@@ -6,24 +6,24 @@
 
 A modern WPF application for Windows that monitors application startup events and automatically sends configurable API requests. Perfect for integrating Windows events with external services like home automation systems, monitoring tools, or webhooks.
 
-## ✨ Features
+## Features
 
-- 🔍 **Application Monitoring**: Select from running processes or specify custom EXE paths
-- 🌐 **API Integration**: Configure HTTP requests with custom URLs, methods, headers, and bodies
-- 🔑 **Authentication Support**: Built-in API key/token support for authenticated endpoints
-- ⚙️ **Flexible Configuration**: Dynamic placeholders for app name and timestamp in requests
-- 🎨 **Modern UI**: Clean, intuitive WPF interface with dark/light theme support
-- 🚀 **Auto-Start**: Configure automatic startup with Windows and monitoring on launch
-- 💾 **Persistent Settings**: Saves configuration to JSON for consistent behavior
-- 🧪 **API Testing**: Built-in test functionality to validate configurations
+- **Application Monitoring**: Select from running processes or specify custom EXE paths
+- **API Integration**: Configure HTTP requests with custom URLs, methods, headers, and bodies
+- **Authentication Support**: Built-in API key/token support for authenticated endpoints
+- **Flexible Configuration**: Dynamic placeholders for app name and timestamp in requests
+- **Modern UI**: Clean, intuitive WPF interface with dark/light theme support
+- **Auto-Start**: Configure automatic startup with Windows and monitoring on launch
+- **Persistent Settings**: Saves configuration to JSON for consistent behavior
+- **API Testing**: Built-in test functionality to validate configurations
 
-## 📋 Requirements
+## Requirements
 
 - **OS**: Windows 10/11
 - **Framework**: .NET 8.0 or later
 - **Permissions**: Administrative privileges recommended for WMI monitoring
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Option 1: Download Release
 1. Download the latest release from the [Releases](https://github.com/yourusername/windows-automation-utility/releases) page
@@ -45,7 +45,7 @@ dotnet build --configuration Release
 dotnet run
 ```
 
-## 📖 Usage
+## Usage
 
 ### Basic Setup
 1. **Launch** the application
@@ -82,14 +82,14 @@ Access the **Settings** menu to configure:
 - Auto-start the utility with Windows
 - Auto-start monitoring when the app launches
 
-## 🔧 Configuration
+## Configuration
 
 Settings are automatically saved to `config.json` in the application directory. The file includes:
 - Selected application/process
 - API configuration (URL, method, headers, body)
 - Auto-start preferences
 
-## 🏗️ Architecture
+## Architecture
 
 - **UI Framework**: WPF with XAML
 - **Monitoring**: Windows Management Instrumentation (WMI)
@@ -97,7 +97,7 @@ Settings are automatically saved to `config.json` in the application directory. 
 - **Serialization**: System.Text.Json
 - **Registry Integration**: Microsoft.Win32 for auto-start
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -105,18 +105,18 @@ Settings are automatically saved to `config.json` in the application directory. 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚠️ Important Notes
+## Important Notes
 
 - **Administrative Privileges**: WMI monitoring may require admin rights
 - **Process Monitoring**: Monitors for new process instances by name
 - **Security**: API keys are stored locally - ensure proper file permissions
 - **Compatibility**: Designed for Windows 10/11 with .NET 8.0+
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Monitoring not working?**
 - Ensure you're running as administrator
@@ -132,7 +132,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Ensure .NET 8.0 runtime is installed
 - Check antivirus exclusions
 - Run as administrator
-
----
-
-**Made with ❤️ for Windows automation enthusiasts**
